@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 3</title>
+
+    <style>
+        body {
+            background-image: url("./img.jpg");
+        }
+        
+        .first {
+            text-align: center;
+            width: 40%;
+            margin: auto;
+            /* border: 7px solid #fd0026; */
+            border-radius: 15px;
+            color: rgb(114, 44, 94);
+            text-shadow: 3px 3px pink;
+            /* box-shadow: 5px 5px rgb(232, 81, 106); */
+            box-shadow: 0.5rem 0.5rem black, -0.5rem -0.5rem;
+            font-size: 23px;
+        }
+        
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 100px;
+            column-gap: 500px;
+            /* background-color: #2196F3; */
+            padding: 10px;
+            border: 7px solid rgb(114, 44, 94);
+            border-radius: 20px;
+        }
+        
+        .grid-container>div {
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+            border: 2px solid black;
+            border-radius: 15px;
+            color: rgb(114, 44, 94);
+            text-shadow: 3px 3px pink;
+            box-shadow: 0 -5px 3px -3px black, 0 5px 3px -3px black;
+        }
+        
+        .third {
+            width: 60%;
+            margin: auto;
+            text-align: center;
+            border: 3px solid rgb(114, 44, 94);
+            background-color: aquamarine;
+            font-style: italic;
+            margin-top: 20px;
+            font-weight: 500;
+            font-size: 18px;
+        }
+        
+        .third1 {
+            width: 46%;
+            display: inline-block;
+            border: 2px solid cadetblue;
+            margin-bottom: 18px;
+            padding: 10px;
+            background-color: lightgreen;
+        }
+        
+        .third2 {
+            width: 46%;
+            display: inline-block;
+            border: 2px solid cadetblue;
+            margin-bottom: 18px;
+            padding: 10px;
+            background-color: lightgreen;
+        }
+        
+        .third3 {
+            border: 2px solid cadetblue;
+            margin: 7px;
+            background-color: lightgreen;
+        }
+        
+        .button {
+            background-color: #4CAF50;
+            /* Green */
+            border: none;
+            color: white;
+            padding: 10px 22px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-top: 16px;
+        }
+        
+        .last {
+            width: 40%;
+            margin: auto;
+            border: 2px solid black;
+            background-color: #6af16e;
+            text-align: center;
+            position: fixed;
+            top: 91%;
+            left: 30%;
+            font-style: italic;
+            font-size: 20px;
+        }
+        
+        .last1 {
+            width: 45%;
+            display: inline-block;
+        }
+        
+        .last2 {
+            width: 45%;
+            display: inline-block;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="first">
+        <span><h2>Welcome to</h2></span> <span><h2>All-In-One</h2></span> <span><h2>General Store</h2></span>
+    </div>
+
+    <hr>
+    <hr>
+
+    <div class="grid-container second">
+        <div>
+            <span> Address: B-145 near </span> <br> <span>Delhi Public Scool</span> <br> <span>Faridabad</span> <br><span>Haryana</span>
+        </div>
+        <div>
+            <img src="./img1.png" width="250px" height="200px" alt="">
+        </div>
+        <div>
+            <span>WE SERVE OUR</span> <br> <span>BEST TO YOU</span> <br><br> <span>PLEASE VISIT OUR </span> <br> <span>STORE FOR</span> <br> <span>BETTER DEAL</span><br><span>AND PRICE.</span>
+        </div>
+        <div>
+            <span>PLEASE RATE US</span><br><br>
+            <span style="font-size: 18px;">RATE US</span><br>
+            <input type="text" style="height: 28px;" placeholder="Enter No."><br>
+            <button type="button" class="button">Submit</button>
+        </div>
+
+    </div>
+
+    <div class="third">
+        <h2>Welcome to My Store</h2>
+        <div class="third1">
+            <h3>Fruits</h3>
+            <hr>
+            <span>Banana, Mango, Pineapple, </span> <br><span> Strawberry, Guava, Papaya, Date, </span><br>
+            <span> Muskmelon, Watermelon, Plum, Banana</span><br>
+        </div>
+        <div class="third2">
+            <h3>Veges</h3>
+            <hr>
+            <span>Carrot, Reddish, Potato,</span> <br> <span> Tomato, Brocalli, Ginger, Cabbage,</span><br><span> Peas, Onion, Cauliflower, Pumpkin</span><br>
+        </div>
+        <div class="third3">
+            <h3>Other Items</h3>
+            <hr>
+            <span>Lorem, ipsum dolor sit amet consectetur </span>
+            <br> <span> adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit </span> <br> <span> Maiores quisquam suscipit iste dolorum, voluptas asperiores
+                adipisci veritatis nesciunt </span> <br> <span> in magnam consequatur. in magnam consequatur. . Ab, magni eum llendus. Ab, magni eum llendus, consequatur.</span> <br>
+        </div>
+    </div>
+
+
+    <div class="last">
+        <div class="last1">
+            <span>Exciting offer only on</span> <br> <span>WEEKENDS</span>
+        </div>
+        <div class="last2">
+            <span>Get Discount upto</span> <br>
+            <span>25%</span>
+        </div>
+    </div>
+
+</body>
+
+</html>
